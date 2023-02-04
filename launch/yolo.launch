@@ -1,0 +1,5 @@
+<launch>
+    <node name="yolo_ros_node" pkg="yolo_ros" type="yolo_ros_node.py" output="screen">
+        <param name="weightsfile" value="$(find yolo_ros)/yoloWeights/yoloWeights.pt"/>
+    </node>
+</launch>
